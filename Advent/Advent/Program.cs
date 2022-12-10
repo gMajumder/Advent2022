@@ -35,6 +35,12 @@ var (day8Part1, day8Part2) = await day8.SolveProblem();
 LogResult(day8Part1, day8Part2);
 #endregion
 
+#region Day9
+Day9 day9 = new();
+var (day9Part1, day9Part2) = await day9.SolveProblem();
+LogResult(day9Part1, day9Part2);
+#endregion
+
 static void LogResult<T1, T2>(T1 res1, T2 res2)
 {
     Console.WriteLine($"Problem 1 result : {res1} AND Problem 2 result : {res2}");
